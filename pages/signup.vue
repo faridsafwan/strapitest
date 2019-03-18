@@ -48,7 +48,10 @@
 
 <script>
 import Strapi from "strapi-sdk-javascript/build/main";
-const apiUrl = process.env.API_URL || "http://localhost:1337";
+const apiUrl =
+  process.env.API_URL ||
+  "http://localhost:1337" ||
+  "https://quiet-plains-18812.herokuapp.com";
 const strapi = new Strapi(apiUrl);
 import { mapMutations } from "vuex";
 
