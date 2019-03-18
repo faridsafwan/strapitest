@@ -19,7 +19,6 @@
                 :to="{ name: 'restaurants-id', params: { id: restaurant._id }}"
                 tag="a"
                 class="btn btn-primary"
-                v-if="username"
               >See dishes</router-link>
             </div>
           </li>
@@ -50,9 +49,6 @@ export default {
     },
     restaurants() {
       return this.$store.getters["restaurants/list"];
-    },
-    username() {
-      return this.$store.getters["auth/username"];
     }
   },
   async fetch({ store }) {
