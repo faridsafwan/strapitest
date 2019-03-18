@@ -7,7 +7,7 @@
           <b-form-input
             id="username"
             v-model="username"
-            type="username"
+            type="name"
             autofocus="true"
             placeholder="Enter your username"
             required
