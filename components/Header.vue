@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
-      <router-link tag="a" class="navbar-brand" to="/" exact>Deliveroo clone</router-link>
+      <router-link tag="a" class="navbar-brand" to="/" exact>Deliveroo</router-link>
       <b-navbar-toggle target="nav_collapse"/>
       <b-collapse is-nav id="nav_collapse" class="justify-content-end">
         <b-navbar-nav>
